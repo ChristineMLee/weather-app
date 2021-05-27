@@ -1,0 +1,142 @@
+.search {
+  position: relative;
+  top: 20px;
+  right: -30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 5px;
+}
+
+.today-forecast {
+  position: relative;
+  top: 110px;
+  right: -280px;
+  text-align: left;
+  font-size: 18px;
+  color: #000000;
+}
+
+.current-day {
+  position: relative;
+  top: 35px;
+  right: -220px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.local-date-time {
+  margin-bottom: -5px;
+}
+
+.card-group .weekday {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.card-group {
+  margin: 30px;
+  border: rgb(255, 255, 255);
+}
+.weekday {
+  font-size: 13px;
+  margin: 2px;
+  padding: 2px;
+  color: #000000;
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+  background: linear-gradient(#ffffff);
+  border: 1px solid;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #ffffff;
+  max-width: 1000px;
+  padding: 10px;
+}
+.card {
+  color: #000000;
+  margin: 3px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: linear-gradient(#91e9ff, #ffffff), rgb(255, 255, 255);
+}
+
+.date {
+  text-align: center;
+}
+
+.gif {
+  max-width: 70px;
+  display: block;
+  margin: 0 auto;
+  opacity: transparent;
+}
+
+.main-degree {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row .col {
+  margin-top: 30px;
+}
+
+.row {
+  text-align: center;
+  font-size: 20px;
+}
+.fa-sun {
+  font-size: 50px;
+  color: rgb(255, 187, 0);
+}
+.fa-cloud-sun {
+  font-size: 50px;
+  color: rgb(255, 187, 0);
+}
+.fa-cloud-rain {
+  font-size: 50px;
+  color: rgb(255, 187, 0);
+}
+.fa-cloud-sun-rain {
+  font-size: 50px;
+  color: rgb(255, 187, 0);
+}
+#cTemperatureButton {
+  border: none;
+  color: #001d9c;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 200ms ease;
+  font-size: 17px;
+}
+#fTemperatureButton {
+  border: none;
+  color: #001d9c;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 200ms ease;
+  font-size: 17px;
+}
+#temp {
+  font-size: 17px;
+}
+#city {
+  text-align: center;
+  font-size: 23px;
+}
+.local-day {
+  font-size: 18px;
+}
+h2 {
+  text-align: center;
+  font-size: 23px;
+}
